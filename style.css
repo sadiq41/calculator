@@ -1,49 +1,45 @@
-*{
-    box-sizing: border-box;
-    margin: 3px;
-    background-color:grey;
-    padding: auto;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#body
+{
+    background-color: grey;
 }
-.header{
-
-    background-color:black;
-    width: auto;
-    display: flex;
-    justify-content: space-evenly;
+.calculator
+{
     padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color:#191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-#hm{
+.display-box
+{
+    font-family:'Open Sans' ,sans-serif ;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 98%;
+    height: 110%;
+}
+
+#btn
+{
+    background-color: rgb(0, 135, 88);
+}
+input[type=button]
+{
+    font-family: 'Open Sans',sans-serif;
+    background-color: rgb(0, 135, 88);
     color: white;
-    background-color: black;
+    border: solid black 0.5px;
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    outline: none;
 }
-#ab{
-    color: white;
-    background-color: black;
-}
-#cntct{
-    color: white;
-    background-color: black;
-}
-.heading{
-    box-sizing: border-box;
-    text-align: center;
-    border: 2px solid black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-#display{
-    text-align: 350px;
-    margin: 10vh ;
-    box-shadow: royalblue;
-    font-family: sans-serif;
-}
-.buttons{
-    display: grid;
-    border-bottom: 1px solid;
-    border-left: 1px solid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-right: 1px solid;
-    max-width: 350px;
-    margin: 10vh auto 0 auto;
-    box-shadow: rgb(0, 29, 116);
-    font-family: sans-serif;
+input:active[type=button]
+{
+    background: #e5e5e5;
 }
