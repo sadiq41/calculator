@@ -1,0 +1,47 @@
+* {
+  background-color: grey;
+  box-sizing: border-box;
+}
+#heading {
+  position: relative;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  border: 3px black outset;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  left: 43%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#discription {
+  left: 45%;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+#navbutton {
+  border: 2px rgb(115, 0, 33) dashed;
+  color: white;
+  background-color: black;
+  left: 45%;
+  position: relative;
+  top: 200px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#icon {
+  position: absolute;
+  top: 450px;
+  border: 0;
+  left: 40px;
+  color: black;
+}
+#icon-insta {
+  position: absolute;
+  top: 450px;
+  border: 0;
+  left: 100px;
+  color: black;
+}
