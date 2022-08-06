@@ -45,3 +45,6 @@
   left: 100px;
   color: black;
 }
+input:active[type="button"] {
+  background-color: green;
+}
